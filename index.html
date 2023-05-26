@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+
+      <nav>
+        <div class="logo-container">
+          <img src="./images/logo.svg" alt="Logo SNAP" />
+        </div>
+        <div class="menu-btn-container"></div>
+
+        <div class="menu">
+          <ul id="menu-li">
+            <li id="features">Features <img id="featuresArrow" src="./images/icon-arrow-down.svg"></li>
+            <div class="features-li">
+              <ul>
+                <li><img src="./images/icon-todo.svg"> Todo List</li>
+                <li><img src="./images/icon-calendar.svg"> Calendar</li>
+                <li><img src="./images/icon-reminders.svg"> Reminders</li>
+                <li><img src="./images/icon-planning.svg"> Planning</li>
+              </ul>
+            </div>
+            <li id="company">Company <img id="companyArrow" src="./images/icon-arrow-down.svg"></li>
+            <div class="company-li">
+              <ul>
+                <li>History</li>
+                <li>Our team</li>
+                <li>Blog</li>
+              </ul>
+            </div>
+            <li>Careers</li>
+            <li>About</li>
+          </ul>
+  
+          <div class="btn-container">
+            <button id="login-btn">Login</button>
+            <button id="register-btn">Register</button>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <div class="img-container"></div>
+
+        <section>
+          <h1>Make remote work</h1>
+          <p>Get  your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+          <button>Learn more</button>
+          <ul>
+            <li><img src="./images/client-databiz.svg" alt="Databiz logo" height="18px" ></li>
+            <li><img src="./images/client-audiophile.svg" alt="Audiophile logo" height="18px"></li>
+            <li><img src="./images/client-meet.svg" alt="Meet logo" height="18px"></li>
+            <li><img src="./images/client-maker.svg" alt="Maker logo" height="18px"></li>
+          </ul>
+        </section>
+
+      </main>
+
+      
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
